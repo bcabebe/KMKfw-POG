@@ -322,16 +322,16 @@
             "KC.P",
             "KC.ESC",
             "KC.TAB",
-            "KC.HT(KC.A,KC.LCTL)",
-            "KC.HT(KC.S,KC.LGUI)",
-            "KC.HT(KC.D,KC.LALT)",
-            "KC.HT(KC.F,KC.LCTL)",
+            "KC.HT(KC.A, KC.LCTL, prefer_hold=False, tap_time=200)",
+            "KC.HT(KC.S, KC.LGUI, prefer_hold=False, tap_time=200)",
+            "KC.HT(KC.D, KC.LALT, prefer_hold=False, tap_time=200)",
+            "KC.HT(KC.F, KC.LCTL, prefer_hold=False, tap_time=200)",
             "KC.G",
             "KC.H",
             "KC.J",
-            "KC.HT(KC.K,KC.RALT)",
-            "KC.HT(KC.L,KC.RGUI)",
-            "KC.HT(KC.SCLN,KC.RCTL)",
+            "KC.HT(KC.K, KC.RALT, prefer_hold=False, tap_time=200)",
+            "KC.HT(KC.L, KC.RGUI, prefer_hold=False, tap_time=200)",
+            "KC.HT(KC.SCLN, KC.RCTL, prefer_hold=False, tap_time=200)",
             "KC.QUOT",
             "KC.LSFT",
             "KC.Z",
@@ -657,5 +657,5 @@
         "rgb"
     ],
     "flashingMode": "automatic",
-    "lastEdited": "2024-06-03 19:18"
+    "lastEdited": "2024-06-03 19:45"
 }
