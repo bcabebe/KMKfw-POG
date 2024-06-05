@@ -107,7 +107,7 @@ if config.get('splitPinA'):
 if config.get('splitPinB'):
     splitPinB = eval(renderPin(config['splitPinB']))
 
-#vbusPin = None
+vbusPin = None
 #if config.get('vbusPin'):
 #    vbusPin = eval("board." + config['vbusPin'])
 
