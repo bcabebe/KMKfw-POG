@@ -373,9 +373,9 @@
             "KC.TRNS",
             "KC.TRNS",
             "KC.NO",
-            "KC.NO",
-            "KC.NO",
-            "KC.NO",
+            "KC.LSFT(KC.DEL)",
+            "KC.LCTL(KC.INSERT)",
+            "KC.LSFT(KC.INSERT)",
             "KC.INSERT",
             "KC.LCTL(KC.Y)",
             "KC.DEL",
@@ -657,5 +657,5 @@
         "rgb"
     ],
     "flashingMode": "automatic",
-    "lastEdited": "2024-06-03 19:45"
+    "lastEdited": "2024-06-10 20:31"
 }
