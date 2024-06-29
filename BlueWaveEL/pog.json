@@ -379,7 +379,7 @@
             "KC.INSERT",
             "KC.LCTL(KC.Y)",
             "KC.DEL",
-            "KC.NO",
+            "KC.CAPSWORD",
             "KC.BSPC",
             "KC.PGUP",
             "KC.TRNS",
@@ -505,7 +505,7 @@
             "KC.SCROLLLOCK",
             "KC.NO",
             "KC.NO",
-            "KC.NO",
+            "customkeys.ToggleDrive",
             "KC.TRNS",
             "KC.TRNS",
             "KC.F1",
@@ -657,5 +657,5 @@
         "rgb"
     ],
     "flashingMode": "automatic",
-    "lastEdited": "2024-06-10 20:31"
+    "lastEdited": "2024-06-16 17:46"
 }

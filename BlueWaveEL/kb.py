@@ -33,7 +33,21 @@ class KMKKeyboard(_KMKKeyboard):
 
         if "combos" in features:
             from kmk.modules.combos import Combos, Chord, Sequence
+            from kmk.keys import KC
             self.combos = Combos()
+            #self.modules.append(self.combos)
+            self.combos.combos = [
+                Chord((37, 38), KC.TILDE, match_coord=True),
+                Chord((42, 43), KC.MINUS, match_coord=True),
+                Chord((30, 31), KC.UNDERSCORE, match_coord=True),
+                Chord((18, 19), KC.EQUAL, match_coord=True),
+                Chord((14, 15), KC.SLASH, match_coord=True),
+                Chord((15, 16), KC.BSLASH, match_coord=True),
+                Chord((21, 22), KC.QUOTE, match_coord=True),
+                Chord((13, 14), KC.PIPE, match_coord=True),
+                Chord((45, 46), KC.GRAVE, match_coord=True),
+                Chord((19, 20), KC.PLUS, match_coord=True)
+            ]
             self.modules.append(self.combos)
 
         if pog.config['split']:
@@ -77,6 +91,9 @@ class KMKKeyboard(_KMKKeyboard):
             self.modules.append(self.split)
 
         # Add your own modules and extensions here
+        from kmk.modules.capsword import CapsWord
+        self.modules.append(CapsWord())
+
         # or sort them into the correct spot to have the correct import order
 
 

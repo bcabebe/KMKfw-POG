@@ -17,6 +17,8 @@ keyboard = KMKKeyboard(features=['basic', 'serial', 'oneshot', 'tapdance', 'hold
 # manage settings for our modules and extensions here
 keyboard.tapdance.tap_time = 200
 
+#keyboard.debug_enabled = False
+
 # Keymap
 import keymap
 keyboard.keymap = keymap.keymap

@@ -5,7 +5,7 @@ I am using [KMK](https://kmkfw.io/) and [POG](https://pog.heaper.de/) on a [Boar
 
 The first board I've added is named BlueWaveEL, and is a 52 key (5 row, 12 column) single board, "split", column stagger layout.
 
-The KMK files were downloaded from the KMK GitHub at 2014-06-01 11:50.
+The KMK files were downloaded from the KMK GitHub at 2024-06-01 11:50.
 
 The POG v1.3.1 Linux AppImage was downloaded at 2024-06-01 10:59.
 

@@ -3,7 +3,7 @@
 
 from kmk.keys import KC
 
-MyKey = KC.X
+#MyKey = KC.X
 
 DFUMODE = KC.TRNS.clone()
 
